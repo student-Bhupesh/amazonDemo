@@ -198,12 +198,18 @@ span{
 .box {
     border: 2px solid rgb(255, 255, 255);
     border-radius: 4px;
-    height: 400px;
-    width: 20%;
+    height: 380px;
+    width: 23%;
     background-color: white;
     padding: 20px 0px 15px;
-    margin-top: 1rem;
-    margin-bottom: 1rem;  
+    margin-top: 0.85rem;
+    margin-bottom: 0.85rem;  
+}
+.box:hover { 
+    box-shadow: 0px 0px 40px black;
+    transform: scale(1.03);
+    transition: 0.5s;
+    
 }
 
 .box-img{
