@@ -293,3 +293,37 @@ ul a{
 .copyright{
     padding-top: 5px;
 }
+
+/* making code responsive */
+
+@media only screen and (max-width: 412px){
+    .navbar{
+        height: auto;
+        flex-direction: column;
+    }
+    .nav-logo {
+        width: 100%; /* Adjust width to fill the container */
+    }
+    .nav-search {
+        width: 100%; /* Adjust width to fill the container */
+    }
+
+    .nav-search,
+    .search-select,
+    .search-input,
+    .search-icon {
+        height: auto; /* Adjust height as needed */
+        margin: 5px 0; /* Add spacing between items */
+        
+    }
+    .panel{
+        height: 60px;
+    }
+    .hero-section {
+        height: 200px;
+    }
+
+    .shop-section .box{
+        width: 100%;
+    }
+}
